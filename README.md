@@ -30,13 +30,23 @@ This allows for more accurate and familiar key input when using these keyboards,
 - The `=` key does not function in its standard German position. This may be due to the game expecting it **not to be used with Shift**, but that is speculation and the exact reason is unknown.
 - **All required keys for gameplay are patched**, with one exception: **the German `#`/`'` key (“Hash"/"Apostrophe”)** does **not exist on US keyboards**, and while the patch attempts to map those characters to it, the key remains **non-functional in-game**. As a workaround, `#` is kept on **`Shift+3`**, and the **apostrophe `'` is moved to the key left of Backspace**, which is known to work reliably, but may be unfamiliar to you.  On a recommendation I also mapped apostrophe `'` to `Shift+ä` (just one key to the left), as it is similar to the intended location and may be helpful for muscle-memory.
 
+### French (AZERTY) Layout Patch Notes
+- Patch filename : `Typing of the Dead, The - DE Keyboard.dcp`
+- Very special thanks to [Hinoroni](https://github.com/Hinoroni) who has submitted an updated version of their AZERTY patch to be included in this repository.  Hino says:
+- - _I reordered the layout to maximize the number of special characters. I replaced `é`, `è`, `ç`, and `à`, with their 3rd characters._
+- - _I also moved:_
+- - - _`.` to `§`_
+- - - _`#` to `^`_
+- - - _`%` to `¨`_
+- - - _`%` and `.` sometimes come in arcade mode and `#` often comes in drill mode so they needed to be reassigned._
+- _`[`, `]`, `{`, `}`, `+`, `=`, `<`, `>` and `\` are left unassigned but I don't think they are used outside of training mode._
+- @Hinoroni's original `xdelta` patch for AZERTY keyboard layouts is also available from the [Dreamcast-Talk Forum](https://www.dreamcast-talk.com/forum/viewtopic.php?p=190356) if you prefer to use it.
+
+
 ## 📎 Patch Information
 - **Patch format**: `.dcp` (Dreamcast Patch File)
 - **Base version required**: **USA v1.004 GDI**
 - **Patching tool**: [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher)
-
-## AZERTY keyboard patch
-- A patch for AZERTY keyboard layouts already exists, and as it isn't mine I haven't included it here. It was made by Hino and can be downloaded from the [Dreamcast-Talk Forum](https://www.dreamcast-talk.com/forum/viewtopic.php?p=190356) 
 
 ### Installation Instructions
 1. Obtain a clean **GDI dump of the USA v1.004 version** of *The Typing of the Dead*.
@@ -56,5 +66,5 @@ This allows for more accurate and familiar key input when using these keyboards,
 
 ## 👤 Credits
 - **Patch Author**: [Widge](https://www.youtube.com/@widge)
-- **Patching Tool**: [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) by Derek Pascarella
-- **Special Thanks**: to Hino for their wonderful post at the [Dreamcast-Talk Forum](https://www.dreamcast-talk.com/forum/viewtopic.php?p=190356) in which they identified the part of the binary that needed altering to make these patches.
+- **Patching Tool**: [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) by [Derek Pascarella](https://github.com/DerekPascarella)
+- **Special Thanks**: to @Hinoroni for their wonderful post at the [Dreamcast-Talk Forum](https://www.dreamcast-talk.com/forum/viewtopic.php?p=190356) in which they identified the part of the binary that needed altering to make these patches.
